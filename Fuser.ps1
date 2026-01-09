@@ -5,7 +5,7 @@ param(
 )
 
 # =========================
-# CORENET Banner (Storm-style)
+# CORENET Banner 
 # =========================
 $ascii=@"
    _____ ____  ____  ______   _   ________  ______
@@ -268,3 +268,4 @@ if($Json){
   $results | ConvertTo-Json -Depth 6 | Set-Content -Encoding UTF8 $OutFile
   Write-Host ("Saved: " + $OutFile) -ForegroundColor Cyan
 }
+
